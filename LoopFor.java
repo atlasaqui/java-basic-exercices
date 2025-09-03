@@ -17,12 +17,15 @@ public class LoopFor { // Defines a public class named Loop. In Java, all code i
             System.out.println("Diga sua avaliação para o filme "); // Inside the loop, this line prompts the user to enter a rating.
             nota = leitura.nextDouble(); // Reads the next double value (the rating) entered by the user and stores it in the 'nota' variable.
             mediaAvaliacao += nota; // This is a shorthand for `mediaAvaliacao = mediaAvaliacao + nota;`. It adds the value of 'nota' to the current value of 'mediaAvaliacao'. This accumulates the sum of the ratings.
-        } // The loop ends here. After 3 repetitions, the program continues to the next line.
+        } 
 
         System.out.printf("A Média de Avaliações do filme " + filme + " é de: %.2f", mediaAvaliacao / 3); // Prints the final result to the console.
         // `System.out.printf` is used for formatted printing.
         // `"A Média de Avaliações do filme " + filme + " é de: %.2f"` is the format string. It combines a static string with the value of the 'filme' variable.
         // `%.2f` is a placeholder that will be replaced by a floating-point number formatted to two decimal places.
         // `mediaAvaliacao / 3` calculates the average rating by dividing the total sum of ratings by 3.
-    } // The main method ends here.
-} // The class definition ends here.
+
+        //COMENTEI EM INGLÊS, POIS ESTAVA ESTUDANDO A LÍNGUA.
+    } 
+
+} 
