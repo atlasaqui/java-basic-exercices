@@ -17,8 +17,9 @@ public class Tabuada {
             /// System.out.println(numero + " x " + i + " = " + (numero * i));: 
             /// Esta é a linha que é executada repetidamente dentro do loop. 
             /// Ela calcula e imprime o resultado da multiplicação.
-            /// 
+            
         }
     }
     
 }
+
