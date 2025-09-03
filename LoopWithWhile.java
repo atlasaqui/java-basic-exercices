@@ -17,5 +17,8 @@ public class LoopWithWhile { // Defines a public class named LoopWithWhile.
             }
         } // The loop ends here when the user enters -1.
         System.out.println("Média de Avaliações: " + mediaAvaliacao / totalDeNotas); // Calculates the average rating (total sum divided by the count) and prints the result to the console.
+
+        //COMENTEI EM INGLÊS, POIS ESTAVA ESTUDANDO A LÍNGUA.
     }
+
 }
